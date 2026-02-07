@@ -77,14 +77,43 @@ export const olympicEvents: OlympicEvent[] = [
     createEvent('oc-1', 6, 20, 0, 180, 'Opening Ceremony', 'Opening Ceremony', 'San Siro Stadium, Milan', 'Open', false),
 
     // --- Feb 7 (Day 1) ---
-    createEvent('alp-1', 7, 11, 0, 120, 'Alpine Skiing', 'Men\'s Downhill Training 2', 'Stelvio, Bormio', 'Men'),
-    createEvent('cro-w-ski', 7, 10, 0, 90, 'Cross-Country Skiing', 'Women\'s 15km Skiathlon', 'Val di Fiemme', 'Women', true),
-    createEvent('spd-w-3000', 7, 13, 0, 120, 'Speed Skating', 'Women\'s 3000m', 'Baselga di Piné', 'Women', true),
-    createEvent('ice-w-pre2', 7, 16, 0, 150, 'Ice Hockey', 'Women\'s Prelim: CAN vs FIN', 'Fiera Milano', 'Women'),
-    createEvent('luge-m-1', 7, 10, 0, 150, 'Luge', 'Men\'s Singles Run 1 & 2', 'Cortina Sliding Centre', 'Men'),
-    createEvent('ski-m-nh-q', 7, 12, 0, 60, 'Ski Jumping', 'Men\'s Normal Hill Qualification', 'Predazzo', 'Men'),
-    createEvent('bio-mix-r', 7, 15, 0, 75, 'Biathlon', 'Mixed Relay 4x6km', 'Antholz', 'Mixed', true),
-    createEvent('sho-mix-r', 7, 19, 0, 60, 'Short Track', 'Mixed Team Relay Final', 'Forum, Milan', 'Mixed', true),
+    // Curling: 04:05 EST -> 10:05 Italy
+    createEvent('cur-mixed-7c', 7, 10, 5, 115, 'Curling', 'Mixed Doubles Round Robin Session 7 - Sheet C (GBR vs CAN)', 'Cortina Olympic Stadium', 'Mixed'),
+    createEvent('cur-mixed-7d', 7, 10, 5, 115, 'Curling', 'Mixed Doubles Round Robin Session 7 - Sheet D (SUI vs SWE)', 'Cortina Olympic Stadium', 'Mixed'),
+
+    // Freestyle Skiing: 04:30 EST -> 10:30 Italy
+    createEvent('fre-w-slope-q', 7, 10, 30, 90, 'Freestyle Skiing', "Women's Freeski Slopestyle Qualification", 'Livigno', 'Women'),
+
+    // Alpine Skiing: 05:30 EST -> 11:30 Italy
+    createEvent('alp-w-dh-tr3', 7, 11, 30, 90, 'Alpine Skiing', "Women's Downhill 3rd Official Training", 'Olympia delle Tofane, Cortina', 'Women'),
+    createEvent('alp-m-dh', 7, 11, 30, 120, 'Alpine Skiing', "Men's Downhill", 'Stelvio, Bormio', 'Men', true), // User listed this for Feb 7
+
+    // Ice Hockey: 06:10 EST -> 12:10 Italy
+    createEvent('ice-w-pre-b1', 7, 12, 10, 140, 'Ice Hockey', "Women's Prelim: GER vs JPN", 'Fiera Milano', 'Women'),
+
+    // Cross-Country: 07:00 EST -> 13:00 Italy
+    createEvent('cro-w-ski', 7, 13, 0, 90, 'Cross-Country Skiing', "Women's 10km + 10km Skiathlon", 'Val di Fiemme', 'Women', true),
+
+    // Luge: 07:30 EST -> 13:30 Italy
+    createEvent('luge-w-tr', 7, 13, 30, 60, 'Luge', "Women's Singles Official Training", 'Cortina Sliding Centre', 'Women'),
+
+    // Freestyle Skiing: 08:00 EST -> 14:00 Italy
+    createEvent('fre-m-slope-q', 7, 14, 0, 90, 'Freestyle Skiing', "Men's Freeski Slopestyle Qualification", 'Livigno', 'Men'),
+
+    // Curling: 08:35 EST -> 14:35 Italy
+    createEvent('cur-mixed-8a', 7, 14, 35, 115, 'Curling', 'Mixed Doubles Round Robin Session 8 - Sheet A (EST vs NOR)', 'Cortina Olympic Stadium', 'Mixed'),
+    createEvent('cur-mixed-8b', 7, 14, 35, 115, 'Curling', 'Mixed Doubles Round Robin Session 8 - Sheet B (KOR vs CZE)', 'Cortina Olympic Stadium', 'Mixed'),
+    createEvent('cur-mixed-8c', 7, 14, 35, 115, 'Curling', 'Mixed Doubles Round Robin Session 8 - Sheet C (SWE vs ITA)', 'Cortina Olympic Stadium', 'Mixed'),
+    createEvent('cur-mixed-8d', 7, 14, 35, 115, 'Curling', 'Mixed Doubles Round Robin Session 8 - Sheet D (GBR vs USA)', 'Cortina Olympic Stadium', 'Mixed'),
+
+    // Ice Hockey: 08:40 EST -> 14:40 Italy
+    createEvent('ice-w-pre-b2', 7, 14, 40, 140, 'Ice Hockey', "Women's Prelim: SWE vs ITA", 'Fiera Milano', 'Women'),
+
+    // Speed Skating: 10:00 EST -> 16:00 Italy
+    createEvent('spd-w-3000', 7, 16, 0, 120, 'Speed Skating', "Women's 3000m", 'Baselga di Piné', 'Women', true),
+
+    // Ice Hockey: 10:40 EST -> 16:40 Italy
+    createEvent('ice-w-pre-a1', 7, 16, 40, 140, 'Ice Hockey', "Women's Prelim: USA vs FIN", 'Fiera Milano', 'Women'),
 
     // --- Feb 8 (Day 2) ---
     createEvent('alp-m-dh', 8, 11, 0, 120, 'Alpine Skiing', 'Men\'s Downhill', 'Stelvio, Bormio', 'Men', true),
